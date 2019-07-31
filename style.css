@@ -1,0 +1,446 @@
+﻿html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.wrap {
+    width: 100%;
+    position: relative;
+    /*margin: 0 20%;
+     left: 50%;
+    transform: translateX(-50%); */
+}
+
+.mainbg {
+    display: block;
+    width: 100%;
+}
+
+.dlbtn {
+    
+}
+
+.board1 {
+    display: block;
+    width: 40%;
+    margin-left: 30%;
+    position: absolute;
+    top: 28%;
+    z-index: 1;
+}
+
+.bluefish {
+    display: block;
+    width: 30%;
+    margin-left: 53%;
+    position: absolute;
+    top: 29%;
+}
+
+.pig {
+    display: block;
+    width: 29%;
+    margin-left: 16%;
+    position: absolute;
+    top: 26%;
+}
+
+.destiny {
+    display: block;
+    width: 32%;
+    margin-left: 0;
+    position: absolute;
+    top: 44%;
+}
+
+.marlin-nemo {
+    display: block;
+    width: 30%;
+    margin-left: 72%;
+    position: absolute;
+    top: 44%;
+}
+
+.qr-code {
+    position: absolute;
+    width: 10%;
+    top: 0px;
+    right: 0%;
+    z-index: 1;
+
+}
+
+.submarine {
+    display: block;
+    width: 35%;
+    margin-left: 55%;
+    position: absolute;
+    top: 58%;
+}
+
+.turtle-son {
+    display: block;
+    width: 25%;
+    margin-left: -2%;
+    position: absolute;
+    top: 73%;
+}
+
+.turtle-father {
+    display: block;
+    width: 25%;
+    margin-left: 66%;
+    position: absolute;
+    top: 84%;
+}
+
+.ray {
+    display: none;
+    width: 40%;
+    margin-left: 50%;
+    position: absolute;
+    top: 32%;
+}
+
+.games {
+    display: flex;
+    width: 50%;
+    margin-left: 25%;
+    position: absolute;
+    top: 42%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.games .block {
+    width: 33%;
+    text-align: center;
+    padding-bottom: 1%;
+    margin: 0.2vw 0;
+}
+
+.games .block a {
+    color: white;
+    text-decoration: none;
+    font-family: 微软正黑体;
+}
+
+.games .block img {
+    width: 80%;
+    margin-left: 10%;
+    display: block;
+
+}
+
+.board2 {
+    display: block;
+    width: 40%;
+    margin-left: 30%;
+    position: absolute;
+    top: 68%;
+    z-index: 1;
+}
+
+.pinkgift {
+    display: block;
+    width: 20%;
+    margin-left: 53%;
+    position: absolute;
+    top: 68%;
+}
+
+.bluegift {
+    display: block;
+    width: 20%;
+    margin-left: 27%;
+    position: absolute;
+    top: 68%;
+}
+
+.appliance {
+    display: block;
+    width: 70%;
+    margin-left: 15%;
+    position: absolute;
+    top: 82%;
+    max-height: 650px;
+    z-index: 1;
+}
+
+.mobilebg {
+    display: none;
+}
+
+.footer {
+    display: none;
+
+}
+
+@media screen and (max-width: 768px) {
+    .wrap {
+        width: 100%;
+        margin: 0;
+    }
+
+    .mainbg {
+        display: none;
+    }
+
+    .mobilebg {
+        display: block;
+        width: 100%;
+    }
+
+    .dlbtn {
+        display: block;
+        width: 36%;
+        margin-left: 32%;
+        position: absolute;
+        top: 18%;
+        z-index: 1;
+    }
+
+    .board1 {
+        display: block;
+        width: 70%;
+        margin-left: 15%;
+        position: absolute;
+        top: 21%;
+        z-index: 1;
+    }
+
+    .bluefish {
+        display: block;
+        width: 33%;
+        margin-left: 61%;
+        position: absolute;
+        top: 21%;
+    }
+
+    .pig {
+        display: block;
+        width: 30%;
+        margin-left: 4%;
+        position: absolute;
+        top: 20%;
+    }
+
+    .destiny {
+        display: block;
+        width: 32%;
+        margin-left: 0;
+        position: absolute;
+        top: 30%;
+    }
+
+    .ray {
+        display: block;
+        width: 40%;
+        margin-left: 50%;
+        position: absolute;
+        top: 32%;
+    }
+
+    .marlin-nemo {
+        display: block;
+        width: 27%;
+        margin-left: 72%;
+        position: absolute;
+        top: 27%;
+        max-width: 110px;
+
+    }
+
+    .qr-code {
+        display: none;
+    }
+
+    .mobilebg {
+        display: block;
+        width: 100%;
+    }
+
+    .dlbtn {
+        display: block;
+        width: 45%;
+        margin-left: 27.5%;
+        position: absolute;
+        top: 17%;
+        z-index: 1;
+    }
+
+    .board1 {
+        display: block;
+        width: 70%;
+        margin-left: 15%;
+        position: absolute;
+        top: 21%;
+        z-index: 1;
+    }
+
+    .bluefish {
+        display: block;
+        width: 33%;
+        margin-left: 61%;
+        position: absolute;
+        top: 21%;
+    }
+
+    .pig {
+        display: block;
+        width: 30%;
+        margin-left: 4%;
+        position: absolute;
+        top: 20%;
+    }
+
+    .destiny {
+        display: block;
+        width: 40%;
+        margin-left: 0;
+        position: absolute;
+        top: 27%;
+    }
+
+    .ray {
+        display: block;
+        width: 40%;
+        margin-left: 50%;
+        position: absolute;
+        top: 32%;
+    }
+
+    .marlin-nemo {
+        display: block;
+        width: 30%;
+        margin-left: 72%;
+        position: absolute;
+        top: 27%;
+    }
+
+    .qr-code {
+        display: none;
+
+    }
+
+    .submarine {
+        display: block;
+        width: 50%;
+        margin-left: 45%;
+        position: absolute;
+        top: 55%;
+    }
+
+    .turtle-son {
+        display: block;
+        width: 25%;
+        margin-left: -2%;
+        position: absolute;
+        top: 78%;
+    }
+
+    .turtle-father {
+        display: block;
+        width: 34%;
+        margin-left: 63%;
+        position: absolute;
+        top: 77%;
+    }
+
+    .games {
+        width: 100%;
+        margin-left: 0%;
+        position: absolute;
+        top: 36%;
+    }
+
+    .games .block {
+        width: 33%;
+        text-align: center;
+
+
+    }
+
+    .games .block a {
+        color: white;
+        text-decoration: none;
+        font-family: Microsoft JhengHei;
+    }
+
+    .games .block img {
+        width: 80%;
+        margin-left: 10%;
+
+    }
+
+    .board2 {
+        display: block;
+        width: 80%;
+        margin-left: 10%;
+        position: absolute;
+        top: 68%;
+        z-index: 1;
+    }
+
+    .pinkgift {
+        display: block;
+        width: 40%;
+        margin-left: 53%;
+        position: absolute;
+        top: 68%;
+    }
+
+    .bluegift {
+        display: block;
+        width: 50%;
+        margin-left: 0%;
+        position: absolute;
+        top: 65%;
+    }
+
+    .appliance {
+        display: block;
+        width: 100%;
+        margin-left: 0%;
+        position: absolute;
+        top: 84%;
+        z-index: 1;
+    }
+
+    .footer {
+        display: block;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        right: 0%;
+        z-index: 1;
+    }
+    .footer-bg {
+        display: block;
+        height: 50%;
+        width: 100%;
+    }
+}
+
+.download {
+    display: block;
+    width: 30%;
+    margin-left: 66%;
+    position: absolute;
+    top: 15%;
+    z-index: 1;
+}
+
+/*animate*/
+.block {
+    transition: all 1s;
+    opacity: 0;
+    transform: translateY(250px);
+}
+
+.animate {
+    transform: translateY(0px);
+    opacity: 1;
+}
